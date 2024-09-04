@@ -1,0 +1,39 @@
+GET http://localhost:8000/demo/
+
+###
+
+POST http://localhost:8000/demo/
+
+###
+
+POST http://localhost:8000/demo/
+Content-Type: application/json
+
+{
+  "power": 50,
+  "rarity": "Rare",
+  "value": 150
+}
+
+###
+
+GET http://localhost:8000/demotwo/
+
+###
+
+POST http://localhost:8000/demotwo/
+Content-Type: application/json
+
+{
+  "power": 456,
+  "rarity": "their rarity",
+  "value": 350
+}
+
+###
+
+DELETE http://localhost:8000/demotwo/3/
+
+###
+
+GET http://localhost:8000/weapon/1/
